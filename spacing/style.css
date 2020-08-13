@@ -1,0 +1,29 @@
+.container {
+    border: 1px solid blue;
+    margin: 0 auto;
+    width: 75%;
+    text-align: center;
+}
+
+
+.flex-box-container {
+    display: flex;
+    border: 1px solid black;
+    padding: 0px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.flex-box-container div {
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    border: 1px solid blue;
+}
+
+.flex-box-container img {
+    border: 1px solid green;
+    padding: 10px;
+    box-shadow: 8px 10px 58px rgba(0,0,0,7);
+}
